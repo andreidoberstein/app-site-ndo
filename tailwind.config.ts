@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      Oscine: ['var(--font-oscine)', 'oscine', 'sans-serif'],
+    }
   },
   plugins: [],
 } satisfies Config;
